@@ -1,0 +1,861 @@
+*, ::before, ::after { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    text-decoration: none;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+header { 
+    height: 170px; 
+    width: 100%; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400; 
+} 
+.info { 
+    width: 100%; 
+    height: 100px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-bottom: 1px solid #D0D0D0;
+} 
+.info-inner { 
+    margin: 15px 100px; 
+    width: 1240px;
+    height: 100px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+.border { 
+    height: 40px; 
+    width: 1px; 
+    border-radius: 0px; 
+    background: #E2E2E2; 
+} 
+.lang { 
+    height: 76px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: 21px; 
+    letter-spacing: 0em; 
+    text-align: center; 
+} 
+.ru { 
+    color: white; 
+    background-color: #4AD295; 
+    width: 35px; 
+    height: 20px; 
+} 
+.course { 
+    height: 76px; 
+    font-size: 15px; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: 19px; 
+    letter-spacing: 0em; 
+    text-align: left; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+} 
+.contacts { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 80px; 
+} 
+.contacts img { 
+    width: 20px; 
+    height: 20px; 
+} 
+.phone { 
+    width: 175px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: 21px; 
+    letter-spacing: 0em; 
+    text-align: center; 
+ 
+} 
+.search { 
+    width: 510px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+.maistra { 
+    background-color: #EFF3F6; 
+    width: 240px; 
+    height: 55px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.maistra input { 
+    background-color: #EFF3F6; 
+    width: 185px; 
+    height: 55px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    border: none; 
+    text-align: center; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-weight: 600; 
+    line-height: 20px; 
+    letter-spacing: 0em; 
+    text-align: center; 
+ 
+} 
+.maistra button { 
+    background-color: #DD4053; 
+    width: 55px; 
+    height: 55px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: none; 
+} 
+.maistra img { 
+    width: 20px; 
+    height: 20px; 
+} 
+.tours { 
+    background-color: #EFF3F6; 
+    width: 240px; 
+    height: 55px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.tours input { 
+    background-color: #EFF3F6; 
+    width: 185px; 
+    height: 55px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    border: none; 
+    text-align: center; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-weight: 600; 
+    line-height: 20px; 
+    letter-spacing: 0em; 
+    text-align: center; 
+}
+.tours button { 
+    background-color: #4AD295; 
+    width: 55px; 
+    height: 55px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: none; 
+} 
+.tours img { 
+    width: 20px; 
+    height: 20px; 
+}
+.menu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-inner {
+    width: 1090px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-inner a {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #616161;
+}
+.menu-inner li {
+    list-style: none;
+    height: 20px;
+}
+.menu-inner li ul {
+    width: 110px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 26px;
+    right: 28px;
+    background-color: #FFFFFF;
+    display: none;
+}
+.menu-inner li ul li {
+    border-top: 1px solid #9A9A9A;
+    height: auto;
+    width: 90px;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+.menu-inner li ul li a {
+    height: auto;
+}
+.menu-inner li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotels {
+    padding: 30px 0 23px;
+    color: #171717;
+    border-bottom: 3px solid #DD4053;
+}
+.faq {
+    text-transform: uppercase;
+}
+main {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.new {
+    width: 100%;
+    height: 490px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%),  url("images/maxresdefault (1) 2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.new-inner {
+    width: 1040px;
+    height: 325px;
+}
+.new-inner .cost {
+    width: 250px;
+    height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.new-inner p {
+    margin: 16px 0 40px 0;
+    width: 725px;
+    height: 102px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    text-align: left;
+    color: #FFFFFF;
+}
+.new-inner .more {
+    width: 270px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.new-inner .more:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    width: 280px;
+    height: 63px;
+    transition-duration: 0.2s;
+    background: rgba(206, 206, 206, 0.25);
+}
+.new-inner .more:active {
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.5);
+    width: 280px;
+    height: 63px;
+}
+.items {
+    margin: 58px 0;
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.operator {
+    width: 100%;
+    height: 250px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.operator-inner {
+    width: 1120px;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+.operator-inner .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.operator-inner .text .oper {
+    width: 624px;
+    height: 72px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.operator-inner .text .wrld {
+    width: 335px;
+    height: 28px;
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.buttons {
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons .offer {
+    width: 270px;
+    height: 50px;
+    background: #BDBDBD;
+    border-radius: 2px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.buttons .offer:hover {
+    box-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.5);
+}
+.buttons .offer:active {
+    box-shadow: inset 1.5px 1.5px 5px rgba(0, 0, 0, 0.5);
+}
+.buttons .consult {
+    width: 220px;
+    height: 50px;
+    border: 1px solid #969696;
+    color: #969696;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+.buttons .consult:hover {
+    box-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.5);
+}
+.buttons .consult:active {
+    box-shadow: inset 1.5px 1.5px 5px rgba(0, 0, 0, 0.5);
+}
+.adv {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.adv img {
+    width: 45px;
+    height: 45px;
+}
+.adv div {
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adv div p {
+    width: 270px;
+    color: #3D3D3D;
+}
+.best-hotels {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best-hotels-inner {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-hotels-inner .header {
+    width: 990px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-hotels-inner .header h1 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.best-hotels-inner .controls {
+    width: 415px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-hotels-inner .controls img {
+    width: 50px;
+    height: 50px;
+}
+.best-hotels-inner .controls .line {
+    width: 237px;
+    height: 1px;
+}
+.best-hotels-inner .header button {
+    width: 140px;
+    height: 45px;
+    border: 1px solid #969696;
+    background: none;
+    color: #969696;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.best-hotels-inner .header button:hover {
+    background-color: rgb(161, 161, 161);
+    color: rgb(255, 255, 255);
+}
+.best-hotels-inner .header button:active {
+    
+}
+.best-hotels-inner .cards {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.best-hotels-inner .cards .port {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url('images/port.png');
+}
+.best-hotels-inner .cards .rovin {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url('images/rovin.png');
+}
+.best-hotels-inner .cards .boka {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url('images/boka.png');
+}
+.best-hotels-inner .cards div {
+    width: 460px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best-hotels-inner .cards div .text {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.best-hotels-inner .cards div .text p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.actual-tours {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.actual-tours-inner {
+    width: 1200px;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actual-tours-inner .main{
+    width: 1040px;
+    height: 575px;
+    margin: 0 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.actual-tours-inner .header {
+    width: 990px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actual-tours-inner .header h1 {
+    height: 55px;
+    width: 478px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.actual-tours-inner .header button {
+    width: 140px;
+    height: 45px;
+    border: 1px solid #969696;
+    background: none;
+    color: #969696;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.actual-tours-inner .header button:hover {
+    background-color: rgb(161, 161, 161);
+    color: rgb(255, 255, 255);
+}
+.actual-tours-inner .header button:active {
+    
+}
+.actual-tours-inner .cards {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+.actual-tours-inner .cards div .card-inner {
+    width: 327px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.actual-tours-inner .cards div .text {
+    margin: 10px 0 0 0;
+    padding: 0 0 20px 0;
+    width: 287px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #E8E8E8;
+}
+.actual-tours-inner .cards div .text h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #323232;
+}
+.actual-tours-inner .cards div .text p {
+    width: 290px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #848484;
+}
+.actual-tours-inner .cards div .info {
+    width: 290px;
+    height: 100px;
+    padding: 0 0 20px 0;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+.actual-tours-inner .cards div .info .price {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.actual-tours-inner .cards div .info .price .inf {
+    width: 160px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C9C9C9;
+}
+.red {
+    width: 90px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.t1 {
+    height: 32px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DD4053;
+}
+.t2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DD4053;
+}
+.card-inner .length {
+    width: 80px;
+    height: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.actual-tours-inner .cards .port {
+    width: 327px;
+    background-color: #F8F8F8;
+}
+.actual-tours-inner .cards .rovin {
+    width: 327px;
+    background-color: #F8F8F8;
+}
+.actual-tours-inner .cards .boka {
+    width: 327px;
+    background-color: #F8F8F8;
+}
+.actual-tours-inner .cards div img {
+    height: 250px;
+    width: 327px;
+    border-radius: 0px;
+}
+.actual-tours .form {
+    width: 1040px;
+    height: 140px;
+    margin: 0 0 93px 0;
+    border-top: 6px solid #969696;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actual-tours .form .form-inner {
+    width: 1040px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.labels {
+    width: 1040px;
+    padding: 0 0 0 30px;
+}
+.labels-inner {
+    width: 750px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #22222266;
+    display: flex;
+    justify-content: space-between;
+}
+.p1 {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+.p2 {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.actual-tours form {
+    width: 980px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-inner form #form{
+    width: 103px;
+    text-align: center;
+    color: gray;
+    border: 1px solid black;
+}
+
+#where{
+    width: 213px;
+    text-align: center;
+    color: gray;
+    border: 1px solid black;
+}
+
+#tourists{
+    width: 135px;
+    text-align: center;
+    color: gray;
+    border: 1px solid black;
+}
+
+#date-fr{
+    width: 100px;
+    width: 135px;
+    text-align: center;
+    color: gray;
+    border: 1px solid black;
+    border-right: none;
+}
+
+#date-to{
+    width: 120px;
+    width: 135px;
+    text-align: center;
+    color: gray;
+    border: 1px solid black;
+    border-left: none;
+}
+
+#nights-fr{
+    width: 70px;
+    text-align: center;
+    color: gray;
+    border: 1px solid black;
+    border-right: none;
+}
+
+#nights-to{
+    width: 80px;
+    text-align: center;
+    color: gray;
+    border: 1px solid black;
+    border-left: none;
+}
+
+.actual-tours .form button {
+    width: 135px;
+    height: 50px;
+    background: #DD4053;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+footer {
+    font-family: 'Montserrat', sans-serif; 
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3E3E3E80;
+}
+.footer-inner {
+    width: 1040px;
+    height: 40px;
+    border-top: 1px solid #1D1D1D33;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
